@@ -1,0 +1,2 @@
+class StaticPaController < ApplicationController
+end
