@@ -5,20 +5,26 @@
 	background-color: rgba(36,32,33,0.50);
 	padding:1% ;
 	margin-top: 130px;
+	color:white;
+
 }
+body {  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+	}
 
-body {
-background:url('bg.jpg');
-
+.static_pages {
 
  background: url('bg.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
 }
+.posts{
+	background: url('jk.jpeg') ;
+}
+
+
+
 
 .custom-h1 {
 	color: white;
@@ -27,4 +33,15 @@ background:url('bg.jpg');
 .navbar-brand{
 	font-family: 'Inika';
 
+}
+.genie-box {
+	-moz-box-shadow: 1px 1px 2px 0 #d0d0d0 ;
+-webkit-box-shadow: 1px 1px 2px 0 #d0d0d0 ;
+box-shadow: 1px 1px 2px 0 #d0d0d0 ;
+background: white;
+border: 1px solid #ccc;
+border-color: #e4e4e4  #bebebd  #bebebd  #e4e4e4 ;
+margin-bottom: 20px;
+padding: 20px;
+margin-top: 10px;
 }
